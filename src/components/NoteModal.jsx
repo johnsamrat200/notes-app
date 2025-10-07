@@ -95,7 +95,7 @@ export default function NoteModal({ note, onClose, state, setState }) {
           {!note.trashed && (
             <button
               onClick={handleSave}
-              className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition"
+              className="bg-blue-600 text-white px-4 py-2 hover:cursor-pointer rounded-lg hover:bg-blue-700 transition"
             >
               Save
             </button>
@@ -120,7 +120,7 @@ export default function NoteModal({ note, onClose, state, setState }) {
 
           <button
             onClick={onClose}
-            className="border border-gray-400 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+            className=" bg-fuchsia-500 text-white border-gray-400  px-4 py-2 rounded-lg hover:bg-fuchsia-600 transition"
           >
             Close
           </button>
