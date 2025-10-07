@@ -120,7 +120,7 @@ export default function NoteModal({ note, onClose, state, setState }) {
 
           <button
             onClick={onClose}
-            className=" bg-fuchsia-500 text-white border-gray-400  px-4 py-2 rounded-lg hover:bg-fuchsia-600 transition"
+            className=" bg-fuchsia-500 hover:cursor-pointer text-white border-gray-400  px-4 py-2 rounded-lg hover:bg-fuchsia-600 transition"
           >
             Close
           </button>
