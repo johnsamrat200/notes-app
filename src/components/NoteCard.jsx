@@ -85,13 +85,13 @@ export default function NoteCard({ note, state, setState }) {
       <div className="flex gap-2 mt-4">
         <button
           onClick={archive}
-          className="text-sm px-3 py-1 shadow rounded bg-blue-100 hover:bg-blue-300 transition"
+          className="text-sm hover:cursor-pointer px-3 py-1 shadow rounded bg-blue-100 hover:bg-blue-300 transition"
         >
           Archive
         </button>
         <button
           onClick={trash}
-          className="text-sm px-3 py-1 shadow rounded bg-red-100 hover:bg-red-300 transition"
+          className="text-sm hover:cursor-pointer px-3 py-1 shadow rounded bg-red-100 hover:bg-red-300 transition"
         >
           Trash
         </button>
